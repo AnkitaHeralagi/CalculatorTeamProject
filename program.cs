@@ -2,6 +2,11 @@ using System;
 
 class Program
 {
+    public class Addition{
+        public int DoAddition(int a, int b)
+        {
+            return a + b;// adding to numbers
+        }
     public class Subtraction{
         public int DoSubtraction(int a, int b){
             return a - b;
