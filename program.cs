@@ -19,3 +19,12 @@ class Program
         mul.DoMultiplication(2,3);
     }
 }
+
+class Multiplication
+{
+    public void DoMultiplication(int a , int b)
+    {
+        Console.WriteLine(a*b);
+    }
+}
+
