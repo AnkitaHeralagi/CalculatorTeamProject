@@ -2,6 +2,11 @@ using System;
 
 class Program
 {
+    public class Subtraction{
+        public int DoSubtraction(int a, int b){
+            return a - b;
+        }
+    }
     static void Main(string[] args)
     {
         Addition add = new Addition();
