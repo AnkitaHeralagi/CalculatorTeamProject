@@ -2,9 +2,18 @@ using System;
 
 class Program
 {
+<<<<<<< Updated upstream
+=======
+    public class Addition{
+        public void DoAddition(int a, int b)
+        {
+             Console.WriteLine(a + b);// adding to numbers
+        }
+    }
+>>>>>>> Stashed changes
     public class Subtraction{
-        public int DoSubtraction(int a, int b){
-            return a - b;
+        public void DoSubtraction(int a, int b){
+            Console.WriteLine(a - b);
         }
     }
     static void Main(string[] args)
